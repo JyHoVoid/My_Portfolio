@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="checkbox" id="theme-toggle">
+
+  <header class="navbar">
+    <a href="#home" class="logo">MyPortfolio</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <label for="theme-toggle" class="theme-button">Light / Dark</label>
+  </header>
+
+  <main>
+
+    <section id="home" class="home">
+      <img src="images/Profile.jpg" alt="Profile picture" class="profile-pic">
+      <div class="home-text">
+        <p class="hello">Hello, I am JyHo</p>
+        <h1>Jeffrey Abejuela Homero</h1>
+        <h2>Eat. Code. Lift. Innovate.</h2>
+        <p>
+         Hi! I'm Jeffrey, but you can call me Jyho (Jai-ho/Ji-ho). I was born on February 18, 2007,
+         and I'm currently a second-year college student. I'm single, learning programming, and studying trading.
+         I enjoy going to the gym, reading manhwa, manhua, and manga, and watching K-dramas, C-dramas, and movies.
+         I'm not picky about food, and I love adventure! and i'm a shy person but I can be talkative when I get to know someone.
+        </p>
+        <a href="#projects" class="button">See My Projects</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="card about-bio">
+          <h3>My Biography</h3>
+          <p>
+           Hi! I'm a Ambivert Person I love eating,Travelling. I live in Payatas Quezon City I choosed my Course
+           Because i Want to work in CyberSecurity.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Education</h3>
+          <p><strong>Course:</strong> ACT</p>
+          <p><strong>School:</strong> Datamex College of Saint Adeline</p>
+        </div>
+        <div class="card">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Reading</li>
+            <li>Going to Gym</li>
+            <li>Watching Movies</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Interests</h3>
+          <ul>
+            <li>Trading</li>
+            <li>Programming</li>
+            <li>Business</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-list">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Easy Learner</div>
+        <div class="skill">Creative Thinking</div>
+        <div class="skill">Communication</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+
+        <article class="card project">
+          <img src="images/Proj1.jpeg" alt="Screenshot of Project 1">
+          <h3>My Portfolio</h3>
+          <p>Its a Website Portfolio About myself</p>
+          <p class="tech"><strong>Technologies:</strong> VSC, HTML, CSS</p>
+        </article>
+
+        <article class="card project">
+          <img src="images/Proj2.png" alt="Screenshot of Project 2">
+          <h3>DCSA Academic Portal</h3>
+          <p>its a Student Information System with a database</p>
+          <p class="tech"><strong>Technologies:</strong>VB.NET, Access</p>
+        </article>
+
+        <article class="card project">
+          <img src="images/Proj3.jpeg" alt="Screenshot of Project 3">
+          <h3>VLOG INTRAMUROS</h3>
+          <p>what we did in this project is we make a vlog about the place where rizal is related</p>
+          <p class="tech"><strong>Technologies:</strong>CAMERA,PHONE</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="achievements">
+      <h2 class="section-title">Achievements</h2>
+      <div class="card">
+        <ul>
+          <li>Achievement 1 (Certificate in Prelim SQL TOP10)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="goals">
+      <h2 class="section-title">Future Goals</h2>
+      <div class="card">
+        <p>
+         A Full-Stack Developer skills with a high knowledge in trading and Have a Business
+         and have a Healthy Lifestyle and Aesthetic Physique.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-wrap">
+        <div class="card">
+          <h3>Get in Touch</h3>
+          <p><strong>Email:</strong> <a href="mailto:jyhogaming@gmail.com">jyhogaming@gmail.com</a></p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/jeffreyhomero07" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/jyho___/" target="_blank">Instagram</a>
+            <a href="https://github.com/JyHoVoid" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <form class="card contact-form" action="#" method="post">
+          <h3>Send a Message</h3>
+          <input type="text" placeholder="Your name">
+          <input type="email" placeholder="Your email">
+          <textarea rows="4" placeholder="Your message"></textarea>
+          <button type="submit" class="button">Send</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Jeffrey Homero. Built with HTML and CSS.</p>
+  </footer>
+
+</body>
+</html>
